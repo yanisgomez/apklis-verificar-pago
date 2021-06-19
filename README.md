@@ -10,13 +10,13 @@ API Java Para Verificar Los Pagos De Apps En Apklis.
 
 # Uso
 
- • Cambia El Package Del Archivo ApklisCheckPayment
+ • Cambia El Package Del Archivo ApklisCheckPayment.java
    Por El Package De Tu App.
  
  • Es Necesario Tener Instalada La App De Apklis Y 
    Una Sesión Iniciada Con Las Credenciales Del
    Usuario Que Compró La App. De No Ser Así
-   username será null y paid será false.
+   username será null y paid Será false.
  
 ```java
 
