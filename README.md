@@ -29,11 +29,9 @@ API Java Para Verificar Los Pagos De Apps En Apklis.
  
 ```java
 
-
 ApklisCheckPayment checkpaid = new ApklisCheckPayment(this, this.getPackageName());
 String username = checkpaid.getUserName();
 boolean paid = checkpaid.getPaid();
-
 
 ```
 
