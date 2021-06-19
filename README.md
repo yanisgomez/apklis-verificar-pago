@@ -6,7 +6,7 @@ API Java Para Verificar Los Pagos De Apps En Apklis.
 # Instalación
 
 
- • Descarga El Zip Y Agregar El Archivo ApklisCheckPayment.java
+ • Descarga El Zip Y Agrega El Archivo ApklisCheckPayment.java
    A La Carpeta Java De Tu Proyecto.
 
 
