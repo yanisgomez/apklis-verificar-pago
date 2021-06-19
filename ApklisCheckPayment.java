@@ -22,12 +22,12 @@ public class ApklisCheckPayment {
             contentResolver = CONTEXT.getContentResolver().acquireContentProviderClient(provider_URI);
 
             if (contentResolver != null) {
-                Cursor pago = contentResolver.query(provider_URI, null, null, null, null);
-                if (pago.moveToFirst()) {
-                    paid = pago.getInt(pago.getColumnIndex(APKLIS_PAID)) > 0;
-                    username = pago.getString(pago.getColumnIndex(APKLIS_USER_NAME));
+                Cursor apklisdb = contentResolver.query(provider_URI, null, null, null, null);
+                if (apklisdb.moveToFirst()) {
+                    paid = apklisdb.getInt(apklisdb.getColumnIndex(APKLIS_PAID)) > 0;
+                    username = apklisdb.getString(apklisdb.getColumnIndex(APKLIS_USER_NAME));
                 }
-                pago.close();
+                apklisdb.close();
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
                     contentResolver.close();
                 } else {
