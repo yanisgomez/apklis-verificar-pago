@@ -1,5 +1,5 @@
 # apklis-verificar-pago
-API Java Para Verificar Los Pagos De Apps En Apklis
+API Java Para Verificar Los Pagos De Apps En Apklis.
 
 
 # Instalación
